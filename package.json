@@ -1,0 +1,22 @@
+{
+  "name": "smartpyme-mainsite",
+  "version": "1.0.0",
+  "description": "Cypress Automation Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorio1/smartpyme-mainsite-web-automation.git"
+  },
+  "author": "Eduardo Victorio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victorio1/smartpyme-mainsite-web-automation/issues"
+  },
+  "homepage": "https://github.com/victorio1/smartpyme-mainsite-web-automation#readme",
+  "devDependencies": {
+    "cypress": "^8.3.0"
+  }
+}
