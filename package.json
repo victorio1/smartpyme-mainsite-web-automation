@@ -17,6 +17,12 @@
   },
   "homepage": "https://github.com/victorio1/smartpyme-mainsite-web-automation#readme",
   "devDependencies": {
-    "cypress": "^8.3.0"
+    "cypress": "^8.3.0",
+    "cypress-cucumber-preprocessor": "^1.11.0",
+    "tsify": "^4.0.1",
+    "typescript": "^3.4.5"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
   }
 }
