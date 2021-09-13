@@ -1,0 +1,30 @@
+{
+  "name": "smartpyme-main-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorio1/smartpyme-mainsite-web-automation.git"
+  },
+  "author": "Eduardo Victorio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victorio1/smartpyme-mainsite-web-automation/issues"
+  },
+  "homepage": "https://github.com/victorio1/smartpyme-mainsite-web-automation#readme",
+  "devDependencies": {
+    "cypress": "^8.3.0",
+    "cypress-cucumber-preprocessor": "^4.2.0",
+    "cypress-xpath": "^1.6.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "optionalDependencies": {
+    "fsevents": "^2.3.2"
+  }
+}
